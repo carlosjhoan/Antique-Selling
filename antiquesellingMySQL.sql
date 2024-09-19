@@ -204,7 +204,8 @@ values 	('1315353131', 2),
 	('GRDF2224515', 3),
 	('2151632', 2),
 	('1516565', 2),
-	('3543542', 2);
+	('3543542', 2),
+	('4521689', 2);
 
 insert into tipo_telefono (nombre)
 values ('movil'), ('fijo');
@@ -215,7 +216,8 @@ values 	('6076581548', 2),
 	('6076458215', 2),
 	('3175484512', 1),
 	('6070158215', 2),
-	('3164184512', 1);
+	('3164184512', 1),
+	('3108544512', 1);
 
 insert into usuario (nombre, email, telefono_id, documento_id)
 values	('Juan Perez Trujillo', 'juan.perez123@email.com', 1, 1),
@@ -223,7 +225,8 @@ values	('Juan Perez Trujillo', 'juan.perez123@email.com', 1, 1),
 	('Luis Alfonso Martinez', 'luis.martinez789@dominio.com', 3, 3),
 	('Ana Sanchez Buitrago', 'ana.sanchez2023@ejemplo.com', 4, 4),
 	('Carlos Antonio Lopez', 'carlos.lopez007@mail.co', 5, 5),
-	('Alexandra Sofia Rodriguez', 'sofia.rodriguez555@prueba.com', 6, 6);
+	('Alexandra Sofia Rodriguez', 'sofia.rodriguez555@prueba.com', 6, 6),
+	('Alejandro Moncada Suárez', 'suares.alejo123@email.com', 7, 7);
 
 insert into usuario_rol (usuario_id, rol_id)
 values 	(1, 4),
@@ -234,7 +237,9 @@ values 	(1, 4),
 	(4, 3),
 	(5, 1),
 	(6, 2),
-	(6, 3);
+	(6, 3),
+	(7, 2),
+	(7, 3);
 	
 insert into categoria (nombre, descripcion)
 values	('Muebles antiguos', 'Mesas, sillas, armarios, cómodas, escritorios, entre otros.'),
